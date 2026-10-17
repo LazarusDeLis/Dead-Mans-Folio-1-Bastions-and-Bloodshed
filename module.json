@@ -1,0 +1,56 @@
+{
+  "id": "dead-mans-folio-1-bastions-and-bloodshed",
+  "title": "Dead Man’s Folio #1 Bastions & Bloodshed",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>They say that Dead Men tell no tales, but this man would disagree. Welcome to the first Folio compiled by Lazarus De Lis (Pronounced Deh Lee), a jovial and esoteric Aasimar who death never seems to keep down. His plans are many, and his cruelties are fabled. In order to accomplish his ever layered plans, Lazarus has journeyed across a number of fractured realities: worlds similar in shape to ones you or I may know from Fiction and History, but different in just the right ways for him to keep a list of contacts. These individuals, their origins, skillsets, equipment, and accomplishments are all compiled into the Dead Man’s Folio; crystallized triumphs and tragedies always at his disposal. For some strange reason, they’ve now made their way to you! Here’s hoping they become the bedrock of some great adventures in your future! As for Mr. De lis, he still has many more places to go, many more stories to witness, and many more plans to shepherd into their next stages!</p>",
+  "authors": [
+    {
+      "name": "Lazarus De Lis",
+      "email": "lazarusdelis@gmail.com",
+      "discord": "lazarusdelis",
+      "flags": {}
+    },
+    {
+      "name": "DullDev",
+      "discord": "dulldev",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "dead-mans-folio-1",
+      "label": "Dead Man’s Folio #1 Bastions & Bloodshed",
+      "path": "packs/dead-mans-folio-1",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "custom-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
